@@ -10,7 +10,7 @@ jobs:
           command: docker build -t aqua-docker-test:${CIRCLE_SHA1} .
       - run:
           name: Login to Aqua Repository
-          command: docker login registry.aquasec.com -u ${AQUA_USER} -p ${AQUA_PASSWORD}
+          command: docker login registry.aquasec.com -u ${AQUA_USER} -p ${AQUA_PASSWORD} && docker pull registry.aquasec.com/scanner:5.3
       - run:
           name: Install scannercli
           command: |
