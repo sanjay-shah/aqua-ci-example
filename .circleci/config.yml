@@ -9,13 +9,13 @@ jobs:
           name: Build image
           command: docker build -t aqua-docker-test:${CIRCLE_SHA1} .
       - run:
-          name: Install trivy
+          name: Install scannercli
           command: |
-            apk add --update-cache --upgrade --update curl
-            curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/master/contrib/install.sh | sh -s -- -b /usr/local/bin
+            wget --user=${AQUA_USER} --password=${AQUA_PASSWORD} https://download.aquasec.com/scanner/5.3.0/scannercli
+            mv scannercli /usr/local/bin
       - run:
-          name: Scan the local image with trivy (light)
-          command: trivy --exit-code 0 --no-progress aqua-docker-test:${CIRCLE_SHA1}
+          name: Scan the local image with scannercli
+          command: scannercli scan --host=${AQUA_CONSOLE} --user={AQUA_SCANNER_USER} --password=${AQUA_SCANNER_PASSWORD} --local=aqua-docker-test:${CIRCLE_SHA1}
 workflows:
   version: 2
   release:
