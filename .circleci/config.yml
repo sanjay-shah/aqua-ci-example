@@ -23,4 +23,6 @@ workflows:
   version: 2
   release:
     jobs:
-      - build
+      - build:
+          context:
+            - aqua
