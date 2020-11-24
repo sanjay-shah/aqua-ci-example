@@ -1,1 +1,1 @@
-[![CircleCI](https://circleci.com/gh/sanjay-shah/aqua-docker-test.svg?style=svg)](https://circleci.com/gh/sanjay-shah/aqua-docker-test)
+[![CircleCI](https://circleci.com/gh/sanjay-shah/aqua-docker-test.svg?style=shield)](https://circleci.com/gh/sanjay-shah/aqua-docker-test)
