@@ -1,7 +1,7 @@
 [![CircleCI](https://circleci.com/gh/sanjay-shah/aqua-ci-example.svg?style=shield)](https://circleci.com/gh/sanjay-shah/aqua-ci-example)
 
 ## CircleCI and Jenkins integration with Aqua Scanner
-[CircleCI example](.circleci/config.yaml)
+[CircleCI example](./.circleci/config.yml)
 
 [Jenkin example](jenkins-pipeline-example.Jenkinsfile)
 
