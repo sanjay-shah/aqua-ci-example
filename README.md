@@ -10,7 +10,7 @@ CircleCI pipeline [config.yml](./.circleci/config.yml) example.
 
 Jenkin pipeline [Jenkinsfile](./Jenkinsfile) example.
 
-Jenkins Aqua Plugin [configurations](#jenkins-aqua-plugin)
+Jenkins Aqua Security Scanner Plugin [configurations](#jenkins-aqua-security-scanner-plugin)
 
 ### Universal setps for any CI/CD Pipeline without Aqua Plugin
 ```shell
@@ -46,6 +46,12 @@ aqua-ci-example:${CIRCLE_SHA1}
 docker push [OPTIONS] NAME[:TAG]
 ```
 
-## Jenkins Aqua Plugin
+## Jenkins Aqua Security Scanner Plugin
+
+### Install Aqua Security Scanner Plugin for Jenkins
+
 ![Aqua Security Scanner Plugin](./jenkins_aqua_plugin.png)
+
+### Configure Aqua Security Scanner Plugin for Jenkins
+
 ![Aqua Security Scanner Plugin Configuration](./jenkins_aqua_plugin_configuration.png)
