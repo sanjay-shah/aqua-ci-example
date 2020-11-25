@@ -29,7 +29,7 @@ pipeline {
 					docker.withRegistry( '', registryCredential ) {
 						dockerImage.push()
 					}
-				}		
+				}
 			}
 		}
 		stage('Cleaning up') {
