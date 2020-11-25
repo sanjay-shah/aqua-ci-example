@@ -12,7 +12,7 @@ Jenkin pipeline [Jenkinsfile](./Jenkinsfile) example.
 
 Jenkins Aqua Security Scanner Plugin [configurations](#jenkins-aqua-security-scanner-plugin)
 
-## Universal setps for any CI/CD Pipeline without Aqua Plugin
+## Universal steps for any CI/CD Pipeline without Aqua Plugin
 ```shell
 
 ##############################
