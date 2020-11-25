@@ -6,7 +6,7 @@ CircleCI pipeline [example](./.circleci/config.yml)
 Jenkin pipeline [example](./Jenkinsfile)
 
 ### Universal setps for any CI/CD Pipeline without Aqua Plugin
-```bash
+```shell
 
 ##############################
 # STEP 1: DOCKER BUILD IMAGE #
