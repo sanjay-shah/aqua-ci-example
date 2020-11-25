@@ -3,7 +3,7 @@
 ## CircleCI and Jenkins integration with Aqua Scanner
 CircleCI pipeline [example](./.circleci/config.yml)
 
-Jenkin pipeline [example](jenkins-pipeline-example.Jenkinsfile)
+Jenkin pipeline [example](./Jenkinsfile)
 
 ### Universal setps for any CI/CD Pipeline without Aqua Plugin
 ```bash
