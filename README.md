@@ -2,10 +2,15 @@
 
 [![CircleCI](https://circleci.com/gh/sanjay-shah/aqua-ci-example.svg?style=shield)](https://circleci.com/gh/sanjay-shah/aqua-ci-example)
 
-## CircleCI and Jenkins integration with Aqua Scanner
-CircleCI pipeline [example](./.circleci/config.yml)
+## CircleCI integration with Aqua Scanner
 
-Jenkin pipeline [example](./Jenkinsfile)
+CircleCI pipeline [config.yml](./.circleci/config.yml) example.
+
+## Jenkins integration with Aqua Scanner
+
+Jenkin pipeline [Jenkinsfile](./Jenkinsfile) example.
+
+Jenkins Aqua Plugin [configurations](#jenkins-aqua-plugin)
 
 ### Universal setps for any CI/CD Pipeline without Aqua Plugin
 ```shell
@@ -40,3 +45,7 @@ aqua-ci-example:${CIRCLE_SHA1}
 #############################
 docker push [OPTIONS] NAME[:TAG]
 ```
+
+## Jenkins Aqua Plugin
+![Aqua Security Scanner Plugin](./jenkins_aqua_plugin.png)
+![Aqua Security Scanner Plugin Configuration](./jenkins_aqua_plugin_configuration.png)
