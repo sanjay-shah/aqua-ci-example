@@ -4,7 +4,7 @@
 
 ## CircleCI integration with Aqua Scanner
 
-CircleCI pipeline [config.yml](./.circleci/config.yml) example.
+CircleCI pipeline ![config.yml](./.circleci/config.yml) example.
 
 ## Jenkins integration with Aqua Scanner
 
