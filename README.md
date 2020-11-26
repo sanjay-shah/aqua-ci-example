@@ -4,7 +4,7 @@
 
 ## CircleCI integration with Aqua Scanner
 
-CircleCI pipeline ![config.yml](./.circleci/config.yml) example.
+CircleCI pipeline [config.yml](./.circleci/config.yml) example.
 
 ## Jenkins integration with Aqua Scanner
 
@@ -12,7 +12,7 @@ Jenkin pipeline [Jenkinsfile](./Jenkinsfile) example.
 
 Jenkins Aqua Security Scanner Plugin [configurations](#jenkins-aqua-security-scanner-plugin)
 
-## Universal steps for any CI/CD Pipeline without ~~Aqua Plugin~~
+## Steps for scanning any CI/CD Pipeline without ~~Aqua Plugin~~
 ```shell
 
 ##############################
