@@ -1,12 +1,15 @@
 # Aqua CI/CD Scanner Example
 
 [![CircleCI](https://circleci.com/gh/sanjay-shah/aqua-ci-example.svg?style=shield)](https://circleci.com/gh/sanjay-shah/aqua-ci-example)
+Click on the CircleCI link above to see the build example with aqua scanner.
 
 ## CircleCI integration with Aqua Scanner Container
 
 CircleCI pipeline [config.yml](./.circleci/config.yml) example.
 
 ## Jenkins integration with Aqua Scanner Plugin
+
+Watch this [video](https://youtu.be/EH3Ximaa28s) on youtube. 
 
 Jenkin pipeline [Jenkinsfile](./Jenkinsfile) example.
 
