@@ -1,7 +1,7 @@
 # Aqua CI/CD Scanner Example
 
 [![CircleCI](https://circleci.com/gh/sanjay-shah/aqua-ci-example.svg?style=shield)](https://circleci.com/gh/sanjay-shah/aqua-ci-example)  
-Click on the CircleCI link above to see the build example with aqua scanner.
+Click on the CircleCI logo above to see the build example with aqua scanner.
 
 ## CircleCI integration with Aqua Scanner Container
 
