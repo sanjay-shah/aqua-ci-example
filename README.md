@@ -17,7 +17,7 @@ Jenkins Aqua Security Scanner Plugin [configurations](#jenkins-aqua-security-sca
 
 ## Any CI/CD integration without ~~Aqua Plugin~~
 
-For any CI/CD that doesn't have Aqua plugin, follow the the steps below to perform scans within your pipeline with scanner container.
+For any CI/CD that doesn't have Aqua plugin, follow the the steps below to perform scans within your pipeline with scanner container. 
 
 ```shell
 
