@@ -23,14 +23,10 @@ pipeline {
 				aqua customFlags: '', hideBase: false, hostedImage: '', localImage: registry + ":$BUILD_NUMBER", locationType: 'local', notCompliesCmd: '', onDisallowed: 'ignore', policies: '', register: false, registry: '', showNegligible: false
 			}
 		}
-		stage('Deploy our image') {
-			steps{
-				script {
-					docker.withRegistry( '', registryCredential ) {
-						dockerImage.push()
-					}
-				}
-			}
+		stage('Push image') {
+		    steps {
+		        sh "echo `docker push $registry:$BUILD_NUMBER`"
+		    }
 		}
 		stage('Cleaning up') {
 			steps {
