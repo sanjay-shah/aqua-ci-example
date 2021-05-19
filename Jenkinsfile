@@ -25,7 +25,7 @@ pipeline {
 		}
 		stage('Push image') {
 		    steps {
-		        sh "echo `docker push $registry:$BUILD_NUMBER`"
+		        sh "echo `docker login -u bitSanjay198 -p xxxxxx && docker push $registry:$BUILD_NUMBER`"
 		    }
 		}
 		stage('Cleaning up') {
